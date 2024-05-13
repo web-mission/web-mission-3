@@ -48,3 +48,11 @@ touch path/to/folder/file
 ссылки на скринкасты https://drive.google.com/file/d/1ybDAS4DTawLr-ut2yhJfVhbmICvgScaV/view?usp=sharing
 
 ## Part 3
+
+1. SELECT (username) from users;
+
+2. SELECT users.username, COUNT(messages.text) FROM users JOIN messages ON users.id = messages.from GROUP BY users.username;
+
+3. SELECT users.username, COUNT(messages.text) As numberofreceivedmessages FROM users JOIN messages ON users.id = messages.from GROUP BY users.username order by numberofreceivedmessages DESC LIMIT 1;
+
+4. SELECT users.username, AVG(COUNT(messages.text)) FROM users JOIN messages ON users.id = messages.to GROUP BY users.username;
