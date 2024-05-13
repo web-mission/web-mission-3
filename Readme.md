@@ -43,4 +43,8 @@ touch path/to/folder/file
 
 # Mission 3
 
-## Part 0
+## Part 0,1,2
+
+ссылки на скринкасты https://drive.google.com/file/d/1ybDAS4DTawLr-ut2yhJfVhbmICvgScaV/view?usp=sharing
+
+## Part 3
